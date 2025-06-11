@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trail portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+            <div>
+            <a href="#about"><button class="button"> ABOUT</button></a> 
+            <a href="#Skills"><button class="button"> SKILLS</button></a>
+            <a href="#projects"><button class="button"> PROJECT</button></a>
+            <a href="#contact me"><button class="button"> CONTACT</button></a>
+            </div>
+    </header>
+    <main>
+        <section id="about">
+            <h1>Bhargavi</h1>
+            <img src="bh.jpg" width="150" height="250" alt="My photo">
+            <p> iam a student at vignan's foundation for science technology and research</p>
+            <p> currently iam persuing my B.Tech Bioinformatics 3rd year</p>
+            <p> iam passinate about learning full stack development and  iam trying my level best to learn this as soo as posible</p>
+        </section>
+        <section id="Skills">
+            <h1>MY SKILLS</h1>
+            <ol>
+                <li>c</li>
+                <li>html</li>
+                <li>css</li>
+                <li>sql</li>
+            </ol>
+        </section>
+        <section id="projects">
+            <h1>MY PROJECTS</h1>
+                <table border="1">
+                    <tr>
+                        <th>projects</th>
+                        <th>description</th>
+                    </tr>
+                    <tr>
+                        <td>portfolio website</td>
+                        <td>I have built a portfoilo website using html,css,javascript</td>
+                    </tr>
+                    <tr>
+                        <td>python simple calculator</td>
+                        <td>I have built an simple calculator</td>
+                    </tr>
+                </table>
+        </section>
+        <section id="contact me">
+            <h1>Contact me</h1>
+                <p>feel free to get in touch with me using the form below</p>
+                    <form action="">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div>
+                            <b>please choose your gender:</b>
+                            <input type="radio"id=female value="female">
+                            <label for="female">Female</label>
+                            <input type="radio"id="male"value="male">
+                            <label for="male">male</label>
+                        </div>
+                        <div>
+                            <b>select your interest</b>
+                            <input type="checkbox"id="coading" value="coading">
+                            <label for="coading">coading</label>
+                            <input type ="checkbox" id="reading"value="reading">
+                            <label for="reading">reading</label>
+                        </div>
+                        <div>
+                            <label for="Bio">BIO(up to 50 words)</label>
+                            <input type="text" maxlength="50" id="Bio">
+                        </div>
+                            <button type="submit" class="submit">Submit</button>
+                    </form>
+            </section>
+    </main> 
+    <a href=""><button class="fixedButton">top</button></a>  
+    <footer>
+        <p> @2025 portfolio</p>
+    </footer>      
+    </body>
+</html>
