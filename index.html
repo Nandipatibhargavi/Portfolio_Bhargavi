@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>trail portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -13,46 +13,47 @@
             <a href="#about"><button class="button"> ABOUT</button></a> 
             <a href="#Skills"><button class="button"> SKILLS</button></a>
             <a href="#projects"><button class="button"> PROJECT</button></a>
-            <a href="#contact me"><button class="button"> CONTACT</button></a>
+            <a href="#contact-me"><button class="button"> CONTACT</button></a>
             </div>
     </header>
     <main>
         <section id="about">
             <h1>Bhargavi</h1>
             <img src="bh.jpg" width="150" height="250" alt="My photo">
-            <p> iam a student at vignan's foundation for science technology and research</p>
-            <p> currently iam persuing my B.Tech Bioinformatics 3rd year</p>
-            <p> iam passinate about learning full stack development and  iam trying my level best to learn this as soo as posible</p>
+            <p> Iam a student at vignan's foundation for science technology and research</p>
+            <p> Currently Iam persuing my B.Tech Bioinformatics 4th year</p>
+            <p> Iam passinate about learning Front End Web development and  Iam trying my best to learn this as soo as posible</p>
         </section>
         <section id="Skills">
             <h1>MY SKILLS</h1>
             <ol>
-                <li>c</li>
-                <li>html</li>
-                <li>css</li>
-                <li>sql</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>Bootstrap</li>
             </ol>
         </section>
         <section id="projects">
             <h1>MY PROJECTS</h1>
-                <table border="1">
+                <table class="tab" border="1">
                     <tr>
-                        <th>projects</th>
-                        <th>description</th>
+                        <th>Projects</th>
+                        <th>Description</th>
                     </tr>
                     <tr>
-                        <td>portfolio website</td>
+                        <td>Portfolio website</td>
                         <td>I have built a portfoilo website using html,css,javascript</td>
                     </tr>
                     <tr>
-                        <td>python simple calculator</td>
+                        <td>Simple calculator</td>
                         <td>I have built an simple calculator</td>
                     </tr>
                 </table>
         </section>
-        <section id="contact me">
+        <section id="contact-me">
             <h1>Contact me</h1>
-                <p>feel free to get in touch with me using the form below</p>
+                <p>Feel free to get in touch with me using the form below</p>
                     <form action="">
                         <div>
                             <label for="name">Name:</label>
@@ -64,20 +65,20 @@
                         </div>
                         <div>
                             <b>please choose your gender:</b>
-                            <input type="radio"id=female value="female">
+                            <input type="radio"id=female name="gender" value="female">
                             <label for="female">Female</label>
-                            <input type="radio"id="male"value="male">
+                            <input type="radio"id="male" name="gender" value="male">
                             <label for="male">male</label>
                         </div>
                         <div>
-                            <b>select your interest</b>
+                            <b>select your interest:</b>
                             <input type="checkbox"id="coading" value="coading">
                             <label for="coading">coading</label>
                             <input type ="checkbox" id="reading"value="reading">
                             <label for="reading">reading</label>
                         </div>
                         <div>
-                            <label for="Bio">BIO(up to 50 words)</label>
+                            <label for="Bio">BIO(up to 50 words):</label>
                             <input type="text" maxlength="50" id="Bio">
                         </div>
                             <button type="submit" class="submit">Submit</button>
@@ -89,4 +90,4 @@
         <p> @2025 portfolio</p>
     </footer>      
     </body>
-</html>
+</html>   
